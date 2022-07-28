@@ -231,13 +231,34 @@
                 </div>
                 <div class="col-4 d-flex justify-content-center align-item-center">
                     <div>
-                        <button class="btn btn-warning btn-lg fs-4">Register Now</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#myModal"
+                            class="btn btn-warning btn-lg fs-4">Register Now</button>
                     </div>
                 </div>
             </div>
 
         </section>
         <!-- end of newsletter section -->
+
+        <!-- start of newsletter modal -->
+        <div class="modal" tabindex="-1" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Successfully Registered!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>You have successfully registered to our news-letter. You will soon start receiving news about
+                            our latest updates.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of newsletter modal -->
 
         <!-- start of frequently asked questions -->
         <section class="container mt-5">
